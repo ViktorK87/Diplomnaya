@@ -1,9 +1,6 @@
 from main_kinopoisk import Kinopoisk
 import allure
 
-#Запуск тестов с аллюр: pytest --alluredir=./allure_result
-#Просмотр результатов: allure serve allure_result
-#Остановить сервер: Ctrl+C
 
 @allure.severity("blocker")
 @allure.title("Отображения введенного названия фильма")
